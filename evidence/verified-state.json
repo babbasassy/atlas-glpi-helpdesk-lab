@@ -1,0 +1,1158 @@
+{
+    "observed_at_utc": "2026-10-16T14:56:22+00:00",
+    "version": "12.0.0",
+    "checks": [
+        {
+            "name": "Exactly ten tickets",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-01 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-02 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-03 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-04 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-05 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-06 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-07 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 pending transition in stored audit",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-08 resumed transition in stored audit",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-09 reopened transition in stored audit",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 owned marker",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 closed",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 one requester",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 lab administrator assigned",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 assignment group",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 knowledge link",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 solutions retained",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 triage and confirmation notes",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 both SLA targets calculated",
+            "passed": true
+        },
+        {
+            "name": "ATLAS-LAB:HD-10 disabled synthetic requester",
+            "passed": true
+        },
+        {
+            "name": "Five priority levels with two targets each",
+            "passed": true
+        },
+        {
+            "name": "Ten knowledge articles",
+            "passed": true
+        },
+        {
+            "name": "Notifications disabled",
+            "passed": true
+        }
+    ],
+    "tickets": [
+        {
+            "id": 1,
+            "externalid": "ATLAS-LAB:HD-01",
+            "name": "ATLAS-LAB HD-01 Test user cannot sign in",
+            "status": 6,
+            "priority": 2,
+            "type": 1,
+            "itilcategories_id": 1,
+            "slas_id_tto": 3,
+            "slas_id_ttr": 4,
+            "time_to_own": "2026-10-16 22:52:13",
+            "time_to_resolve": "2026-10-18 14:52:13",
+            "date": "2026-10-16 14:52:13",
+            "solvedate": "2026-10-16 14:52:13",
+            "closedate": "2026-10-16 14:52:13",
+            "requesters": [
+                {
+                    "users_id": 7,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 2
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 2,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:13",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:13",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:13",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "externalid": "ATLAS-LAB:HD-02",
+            "name": "ATLAS-LAB HD-02 One workstation cannot resolve internal names",
+            "status": 6,
+            "priority": 2,
+            "type": 1,
+            "itilcategories_id": 2,
+            "slas_id_tto": 3,
+            "slas_id_ttr": 4,
+            "time_to_own": "2026-10-16 22:52:13",
+            "time_to_resolve": "2026-10-18 14:52:13",
+            "date": "2026-10-16 14:52:13",
+            "solvedate": "2026-10-16 14:52:13",
+            "closedate": "2026-10-16 14:52:14",
+            "requesters": [
+                {
+                    "users_id": 8,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 3
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 2,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:13",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:13",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "externalid": "ATLAS-LAB:HD-03",
+            "name": "ATLAS-LAB HD-03 Department print queue paused",
+            "status": 6,
+            "priority": 2,
+            "type": 1,
+            "itilcategories_id": 3,
+            "slas_id_tto": 3,
+            "slas_id_ttr": 4,
+            "time_to_own": "2026-10-16 22:52:14",
+            "time_to_resolve": "2026-10-18 14:52:14",
+            "date": "2026-10-16 14:52:14",
+            "solvedate": "2026-10-16 14:52:14",
+            "closedate": "2026-10-16 14:52:14",
+            "requesters": [
+                {
+                    "users_id": 9,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 4
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 2,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "externalid": "ATLAS-LAB:HD-04",
+            "name": "ATLAS-LAB HD-04 Request for an approved PDF reader",
+            "status": 6,
+            "priority": 1,
+            "type": 2,
+            "itilcategories_id": 4,
+            "slas_id_tto": 1,
+            "slas_id_ttr": 2,
+            "time_to_own": "2026-10-17 14:52:14",
+            "time_to_resolve": "2026-10-19 14:52:14",
+            "date": "2026-10-16 14:52:14",
+            "solvedate": "2026-10-16 14:52:14",
+            "closedate": "2026-10-16 14:52:14",
+            "requesters": [
+                {
+                    "users_id": 10,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 5
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 2,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "externalid": "ATLAS-LAB:HD-05",
+            "name": "ATLAS-LAB HD-05 Suspicious invoice email reported",
+            "status": 6,
+            "priority": 3,
+            "type": 1,
+            "itilcategories_id": 5,
+            "slas_id_tto": 5,
+            "slas_id_ttr": 6,
+            "time_to_own": "2026-10-16 18:52:14",
+            "time_to_resolve": "2026-10-17 14:52:14",
+            "date": "2026-10-16 14:52:14",
+            "solvedate": "2026-10-16 14:52:14",
+            "closedate": "2026-10-16 14:52:14",
+            "requesters": [
+                {
+                    "users_id": 11,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 6
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 2,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "externalid": "ATLAS-LAB:HD-06",
+            "name": "ATLAS-LAB HD-06 Shared folder access request",
+            "status": 6,
+            "priority": 1,
+            "type": 2,
+            "itilcategories_id": 6,
+            "slas_id_tto": 1,
+            "slas_id_ttr": 2,
+            "time_to_own": "2026-10-17 14:52:14",
+            "time_to_resolve": "2026-10-19 14:52:14",
+            "date": "2026-10-16 14:52:14",
+            "solvedate": "2026-10-16 14:52:14",
+            "closedate": "2026-10-16 14:52:14",
+            "requesters": [
+                {
+                    "users_id": 12,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 7
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 2,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:14",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "externalid": "ATLAS-LAB:HD-07",
+            "name": "ATLAS-LAB HD-07 Low disk space warning",
+            "status": 6,
+            "priority": 2,
+            "type": 1,
+            "itilcategories_id": 7,
+            "slas_id_tto": 3,
+            "slas_id_ttr": 4,
+            "time_to_own": "2026-10-16 22:52:14",
+            "time_to_resolve": "2026-10-18 14:52:14",
+            "date": "2026-10-16 14:52:14",
+            "solvedate": "2026-10-16 14:52:15",
+            "closedate": "2026-10-16 14:52:15",
+            "requesters": [
+                {
+                    "users_id": 13,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 8
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 2,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "externalid": "ATLAS-LAB:HD-08",
+            "name": "ATLAS-LAB HD-08 VPN disconnects repeatedly",
+            "status": 6,
+            "priority": 2,
+            "type": 1,
+            "itilcategories_id": 2,
+            "slas_id_tto": 3,
+            "slas_id_ttr": 4,
+            "time_to_own": "2026-10-16 22:52:15",
+            "time_to_resolve": "2026-10-18 14:52:15",
+            "date": "2026-10-16 14:52:15",
+            "solvedate": "2026-10-16 14:52:15",
+            "closedate": "2026-10-16 14:52:15",
+            "requesters": [
+                {
+                    "users_id": 14,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 9
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 3,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "2",
+                    "new_value": "4"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "4",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "externalid": "ATLAS-LAB:HD-09",
+            "name": "ATLAS-LAB HD-09 Meeting microphone issue reopened",
+            "status": 6,
+            "priority": 2,
+            "type": 1,
+            "itilcategories_id": 8,
+            "slas_id_tto": 3,
+            "slas_id_ttr": 4,
+            "time_to_own": "2026-10-16 22:52:15",
+            "time_to_resolve": "2026-10-18 14:52:15",
+            "date": "2026-10-16 14:52:15",
+            "solvedate": "2026-10-16 14:52:15",
+            "closedate": "2026-10-16 14:52:15",
+            "requesters": [
+                {
+                    "users_id": 15,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 10
+                }
+            ],
+            "solution_count": 2,
+            "followup_count": 3,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "5",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "externalid": "ATLAS-LAB:HD-10",
+            "name": "ATLAS-LAB HD-10 Fictional shared application unavailable",
+            "status": 6,
+            "priority": 4,
+            "type": 1,
+            "itilcategories_id": 9,
+            "slas_id_tto": 7,
+            "slas_id_ttr": 8,
+            "time_to_own": "2026-10-16 15:52:15",
+            "time_to_resolve": "2026-10-16 22:52:15",
+            "date": "2026-10-16 14:52:15",
+            "solvedate": "2026-10-16 14:52:15",
+            "closedate": "2026-10-16 14:52:15",
+            "requesters": [
+                {
+                    "users_id": 16,
+                    "use_notification": 0
+                }
+            ],
+            "assigned_users": [
+                {
+                    "users_id": 2
+                }
+            ],
+            "assigned_groups": [
+                {
+                    "groups_id": 1
+                }
+            ],
+            "knowledge": [
+                {
+                    "knowbaseitems_id": 11
+                }
+            ],
+            "solution_count": 1,
+            "followup_count": 2,
+            "status_history": [
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "1",
+                    "new_value": "2"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "2",
+                    "new_value": "5"
+                },
+                {
+                    "date_mod": "2026-10-16 14:52:15",
+                    "old_value": "5",
+                    "new_value": "6"
+                }
+            ]
+        }
+    ],
+    "slas": [
+        {
+            "id": 1,
+            "name": "ATLAS-LAB Priority 1 tto",
+            "type": 1,
+            "number_time": 1440,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 2,
+            "name": "ATLAS-LAB Priority 1 ttr",
+            "type": 0,
+            "number_time": 4320,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 3,
+            "name": "ATLAS-LAB Priority 2 tto",
+            "type": 1,
+            "number_time": 480,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 4,
+            "name": "ATLAS-LAB Priority 2 ttr",
+            "type": 0,
+            "number_time": 2880,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 5,
+            "name": "ATLAS-LAB Priority 3 tto",
+            "type": 1,
+            "number_time": 240,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 6,
+            "name": "ATLAS-LAB Priority 3 ttr",
+            "type": 0,
+            "number_time": 1440,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 7,
+            "name": "ATLAS-LAB Priority 4 tto",
+            "type": 1,
+            "number_time": 60,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 8,
+            "name": "ATLAS-LAB Priority 4 ttr",
+            "type": 0,
+            "number_time": 480,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 9,
+            "name": "ATLAS-LAB Priority 5 tto",
+            "type": 1,
+            "number_time": 15,
+            "definition_time": "minute",
+            "calendars_id": 0
+        },
+        {
+            "id": 10,
+            "name": "ATLAS-LAB Priority 5 ttr",
+            "type": 0,
+            "number_time": 240,
+            "definition_time": "minute",
+            "calendars_id": 0
+        }
+    ],
+    "knowledge": [
+        {
+            "id": 2,
+            "name": "ATLAS-LAB Identity verification before account recovery",
+            "is_faq": 0
+        },
+        {
+            "id": 3,
+            "name": "ATLAS-LAB DNS troubleshooting decision tree",
+            "is_faq": 0
+        },
+        {
+            "id": 4,
+            "name": "ATLAS-LAB Print queue and spooler triage",
+            "is_faq": 0
+        },
+        {
+            "id": 5,
+            "name": "ATLAS-LAB Approved software request handling",
+            "is_faq": 0
+        },
+        {
+            "id": 6,
+            "name": "ATLAS-LAB Reporting suspicious messages safely",
+            "is_faq": 0
+        },
+        {
+            "id": 7,
+            "name": "ATLAS-LAB Access requests and least privilege",
+            "is_faq": 0
+        },
+        {
+            "id": 8,
+            "name": "ATLAS-LAB Safe disk-space triage",
+            "is_faq": 0
+        },
+        {
+            "id": 9,
+            "name": "ATLAS-LAB VPN evidence checklist",
+            "is_faq": 0
+        },
+        {
+            "id": 10,
+            "name": "ATLAS-LAB Audio input troubleshooting",
+            "is_faq": 0
+        },
+        {
+            "id": 11,
+            "name": "ATLAS-LAB High-impact incident coordination",
+            "is_faq": 0
+        }
+    ],
+    "timestamp_context": {
+        "php_timezone": "UTC",
+        "php_now": "2026-10-16T14:56:22+00:00",
+        "utc_now": "2026-10-16T14:56:22+00:00"
+    },
+    "notifications_enabled": false,
+    "passed": 107,
+    "failed": 0
+}

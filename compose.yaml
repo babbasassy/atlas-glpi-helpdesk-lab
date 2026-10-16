@@ -1,0 +1,70 @@
+name: atlas-glpi-helpdesk
+services:
+  proxy:
+    image: nginx:stable-alpine@sha256:959ae6b898852db82e5b29b929388e59914f42be0a8f4d44c89a4c1f53b49208
+    platform: linux/amd64
+    restart: "no"
+    mem_limit: 64m
+    cpus: 0.25
+    pids_limit: 64
+    ports:
+      - "127.0.0.1:8086:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks: [front, lab]
+    depends_on: [glpi]
+    logging:
+      options:
+        max-size: "5m"
+        max-file: "2"
+  glpi:
+    image: glpi/glpi:12.0.0@sha256:f98858321c4371a171d560537eafd15ce3cd62a18e86db3e0305ad28636cc1af
+    platform: linux/amd64
+    restart: "no"
+    mem_limit: 768m
+    cpus: 1.0
+    pids_limit: 256
+    env_file: .env
+    volumes:
+      - glpi_data:/var/glpi
+    networks: [lab]
+    depends_on:
+      db:
+        condition: service_healthy
+    logging:
+      options:
+        max-size: "5m"
+        max-file: "2"
+  db:
+    image: mysql:8.4@sha256:1f8411cc085d2f2f92060fca926746cbf97f87b76c3008e9741ad62e604c4ffa
+    platform: linux/amd64
+    restart: "no"
+    mem_limit: 768m
+    cpus: 1.0
+    pids_limit: 256
+    environment:
+      MYSQL_ROOT_PASSWORD: ${LAB_DB_ROOT_PASSWORD:?Generate a local .env first}
+      MYSQL_DATABASE: ${GLPI_DB_NAME}
+      MYSQL_USER: ${GLPI_DB_USER}
+      MYSQL_PASSWORD: ${GLPI_DB_PASSWORD}
+    command: ["--innodb-buffer-pool-size=128M", "--max-connections=40", "--performance-schema=OFF"]
+    volumes:
+      - db_data:/var/lib/mysql
+    networks: [lab]
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "--silent"]
+      interval: 5s
+      timeout: 3s
+      retries: 24
+    logging:
+      options:
+        max-size: "5m"
+        max-file: "2"
+networks:
+  front:
+    driver: bridge
+  lab:
+    internal: true
+volumes:
+  glpi_data:
+  db_data:

@@ -1,0 +1,74 @@
+{
+  "observed_at_utc": "2026-10-16T15:00:25.2222361Z",
+  "containers": [
+    {
+      "name": "/atlas-glpi-helpdesk-proxy-1",
+      "image": "nginx:stable-alpine@sha256:959ae6b898852db82e5b29b929388e59914f42be0a8f4d44c89a4c1f53b49208",
+      "state": "running",
+      "memory_bytes": 67108864,
+      "nano_cpus": 250000000,
+      "restart": "no",
+      "port_bindings": {
+        "80/tcp": [
+          {
+            "HostIp": "127.0.0.1",
+            "HostPort": "8086"
+          }
+        ]
+      },
+      "effective_ports": {
+        "80/tcp": [
+          {
+            "HostIp": "127.0.0.1",
+            "HostPort": "8086"
+          }
+        ]
+      },
+      "networks": [
+        "atlas-glpi-helpdesk_front",
+        "atlas-glpi-helpdesk_lab"
+      ]
+    },
+    {
+      "name": "/atlas-glpi-helpdesk-glpi-1",
+      "image": "glpi/glpi:12.0.0@sha256:f98858321c4371a171d560537eafd15ce3cd62a18e86db3e0305ad28636cc1af",
+      "state": "running",
+      "memory_bytes": 805306368,
+      "nano_cpus": 1000000000,
+      "restart": "no",
+      "port_bindings": {},
+      "effective_ports": {
+        "80/tcp": null
+      },
+      "networks": [
+        "atlas-glpi-helpdesk_lab"
+      ]
+    },
+    {
+      "name": "/atlas-glpi-helpdesk-db-1",
+      "image": "mysql:8.4@sha256:1f8411cc085d2f2f92060fca926746cbf97f87b76c3008e9741ad62e604c4ffa",
+      "state": "running",
+      "memory_bytes": 805306368,
+      "nano_cpus": 1000000000,
+      "restart": "no",
+      "port_bindings": {},
+      "effective_ports": {
+        "3306/tcp": null,
+        "33060/tcp": null
+      },
+      "networks": [
+        "atlas-glpi-helpdesk_lab"
+      ]
+    }
+  ],
+  "networks": [
+    {
+      "name": "atlas-glpi-helpdesk_lab",
+      "internal": true
+    },
+    {
+      "name": "atlas-glpi-helpdesk_front",
+      "internal": false
+    }
+  ]
+}

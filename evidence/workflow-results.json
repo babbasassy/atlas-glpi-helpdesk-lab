@@ -1,0 +1,784 @@
+{
+    "observed_at_utc": "2026-10-16T14:52:13+00:00",
+    "glpi_version": "12.0.0",
+    "execution": "Authenticated PHP CLI using GLPI domain models, not browser clicks or the REST API",
+    "data_kind": "Synthetic incident narratives; actual local GLPI records and state transitions",
+    "limitations": [
+        "No real endpoint repairs",
+        "No real requester approval",
+        "No elapsed-time SLA compliance claim",
+        "Cron escalation not tested"
+    ],
+    "checks": [
+        {
+            "name": "Disable automatic ticket closure in fresh lab",
+            "passed": true
+        },
+        {
+            "name": "HD-01 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-01 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-01 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-01 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-01 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-01 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-01 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-01 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-01 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-02 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-02 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-02 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-02 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-02 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-02 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-02 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-02 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-02 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-03 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-03 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-03 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-03 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-03 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-03 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-03 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-03 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-03 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-04 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-04 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-04 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-04 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-04 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-04 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-04 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-04 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-04 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-05 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-05 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-05 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-05 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-05 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-05 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-05 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-05 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-05 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-06 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-06 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-06 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-06 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-06 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-06 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-06 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-06 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-06 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-07 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-07 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-07 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-07 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-07 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-07 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-07 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-07 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-07 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-08 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-08 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-08 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-08 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-08 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-08 reload waiting for synthetic information",
+            "passed": true
+        },
+        {
+            "name": "HD-08 status waiting for synthetic information",
+            "passed": true
+        },
+        {
+            "name": "HD-08 reload resumed",
+            "passed": true
+        },
+        {
+            "name": "HD-08 status resumed",
+            "passed": true
+        },
+        {
+            "name": "HD-08 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-08 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-08 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-08 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-09 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-09 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-09 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-09 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-09 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-09 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-09 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-09 reload reopened",
+            "passed": true
+        },
+        {
+            "name": "HD-09 status reopened",
+            "passed": true
+        },
+        {
+            "name": "HD-09 reload solved after reopen",
+            "passed": true
+        },
+        {
+            "name": "HD-09 status solved after reopen",
+            "passed": true
+        },
+        {
+            "name": "HD-09 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-09 status closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-10 reload new",
+            "passed": true
+        },
+        {
+            "name": "HD-10 status new",
+            "passed": true
+        },
+        {
+            "name": "HD-10 SLA due dates calculated",
+            "passed": true
+        },
+        {
+            "name": "HD-10 reload assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-10 status assigned",
+            "passed": true
+        },
+        {
+            "name": "HD-10 reload solved",
+            "passed": true
+        },
+        {
+            "name": "HD-10 status solved",
+            "passed": true
+        },
+        {
+            "name": "HD-10 reload closed by lab administrator",
+            "passed": true
+        },
+        {
+            "name": "HD-10 status closed by lab administrator",
+            "passed": true
+        }
+    ],
+    "cases": [
+        {
+            "case": "HD-01",
+            "ticket_id": 1,
+            "requester_id": 7,
+            "category_id": 1,
+            "knowledge_id": 2,
+            "priority": 2,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:13+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:13+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:13+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:13+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-16 22:52:13",
+                "resolve": "2026-10-18 14:52:13"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-02",
+            "ticket_id": 2,
+            "requester_id": 8,
+            "category_id": 2,
+            "knowledge_id": 3,
+            "priority": 2,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:13+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:13+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:13+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-16 22:52:13",
+                "resolve": "2026-10-18 14:52:13"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-03",
+            "ticket_id": 3,
+            "requester_id": 9,
+            "category_id": 3,
+            "knowledge_id": 4,
+            "priority": 2,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-16 22:52:14",
+                "resolve": "2026-10-18 14:52:14"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-04",
+            "ticket_id": 4,
+            "requester_id": 10,
+            "category_id": 4,
+            "knowledge_id": 5,
+            "priority": 1,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-17 14:52:14",
+                "resolve": "2026-10-19 14:52:14"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-05",
+            "ticket_id": 5,
+            "requester_id": 11,
+            "category_id": 5,
+            "knowledge_id": 6,
+            "priority": 3,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-16 18:52:14",
+                "resolve": "2026-10-17 14:52:14"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-06",
+            "ticket_id": 6,
+            "requester_id": 12,
+            "category_id": 6,
+            "knowledge_id": 7,
+            "priority": 1,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:14+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-17 14:52:14",
+                "resolve": "2026-10-19 14:52:14"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-07",
+            "ticket_id": 7,
+            "requester_id": 13,
+            "category_id": 7,
+            "knowledge_id": 8,
+            "priority": 2,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-16 22:52:14",
+                "resolve": "2026-10-18 14:52:14"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-08",
+            "ticket_id": 8,
+            "requester_id": 14,
+            "category_id": 2,
+            "knowledge_id": 9,
+            "priority": 2,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "waiting for synthetic information",
+                    "status": 4,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "resumed",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-16 22:52:15",
+                "resolve": "2026-10-18 14:52:15"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-09",
+            "ticket_id": 9,
+            "requester_id": 15,
+            "category_id": 8,
+            "knowledge_id": 10,
+            "priority": 2,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "reopened",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "solved after reopen",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-16 22:52:15",
+                "resolve": "2026-10-18 14:52:15"
+            },
+            "final_status": 6
+        },
+        {
+            "case": "HD-10",
+            "ticket_id": 10,
+            "requester_id": 16,
+            "category_id": 9,
+            "knowledge_id": 11,
+            "priority": 4,
+            "transitions": [
+                {
+                    "step": "new",
+                    "status": 1,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "assigned",
+                    "status": 2,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "solved",
+                    "status": 5,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                },
+                {
+                    "step": "closed by lab administrator",
+                    "status": 6,
+                    "observed_at_utc": "2026-10-16T14:52:15+00:00"
+                }
+            ],
+            "initial_due_dates": {
+                "own": "2026-10-16 15:52:15",
+                "resolve": "2026-10-16 22:52:15"
+            },
+            "final_status": 6
+        }
+    ],
+    "completed": true,
+    "finished_at_utc": "2026-10-16T14:52:15+00:00"
+}

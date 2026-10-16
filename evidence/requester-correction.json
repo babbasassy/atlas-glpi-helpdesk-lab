@@ -1,0 +1,66 @@
+{
+    "observed_at_utc": "2026-10-16T14:54:16+00:00",
+    "reason": "Disabled synthetic users were not linked by the initial Ticket add input",
+    "links": [
+        {
+            "ticket_id": 1,
+            "requester_id": 7,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 2,
+            "requester_id": 8,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 3,
+            "requester_id": 9,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 4,
+            "requester_id": 10,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 5,
+            "requester_id": 11,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 6,
+            "requester_id": 12,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 7,
+            "requester_id": 13,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 8,
+            "requester_id": 14,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 9,
+            "requester_id": 15,
+            "requester_active": false,
+            "final_status": 6
+        },
+        {
+            "ticket_id": 10,
+            "requester_id": 16,
+            "requester_active": false,
+            "final_status": 6
+        }
+    ]
+}
